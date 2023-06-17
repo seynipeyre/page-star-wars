@@ -1,0 +1,200 @@
+$orange: #b46816
+@font-face
+    font-family: poppin
+    src: url("../fonts/poppins/poppins-regular.woff2")
+    font-weight: 400
+.container
+    width: 100%
+    max-width: 1200px
+    margin: 0 auto
+    padding: 0 10px
+
+.blog1
+
+   /*  background-size: cover */
+
+.blog
+    background-color: rgba(0, 0, 0, 0.88)
+    background-size: cover
+    height: 100rem
+    font-family: poppin, sans-serif
+
+    // @media screen and (min-width: 576px)
+    //     height: 110rem
+    // @media screen and (min-width: 768px)
+    //     height: 60rem
+    // @media screen and (min-width: 1024px)
+    //     height: 35rem
+
+    &__h1
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 2%
+        font-size: 1rem
+        color: rgba(236, 169, 99, 0.8)
+        @media screen and (min-width: 576px)
+        @media screen and (min-width: 768px)
+            font-size: 1.5rem
+        @media screen and (min-width: 1024px)
+            font-size: 2rem
+
+    &__blogs
+        // max-width: 1300px
+        width: 100%
+        height: auto
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        grid-gap: 20px
+        padding: 0 15%
+       
+        @media screen and (min-width: 576px)
+            grid-template-columns: repeat(1, 1fr)
+        @media screen and (min-width: 768px)
+            grid-template-columns: repeat(2, 1fr)
+            
+        @media screen and (min-width: 1024px)
+            grid-template-columns: repeat(4, 1fr)
+            
+        // display: grid
+        // grid-template-columns: repeat(1, 1fr)
+        // grid-gap: 10px
+        // align-items: center
+
+        // @media screen and (min-width: 768px)  
+        //     grid-template-columns: repeat(2, 1fr)
+
+        // @media screen and (min-width: 1024px) 
+        //     grid-template-columns: repeat(4, 1fr) 
+
+        &_sup
+
+            &_img1
+                background-image: url(../images/commencez/gestion-information.jpg)
+                
+                height: 20rem
+                background-size: cover
+                background-position: center
+
+                // @media screen and (min-width: 1024px)
+                //     width: 10rem
+                //     height: 15rem
+            &_description1
+                display: flex
+                align-items: center
+                justify-content: center
+                color: #fff
+        &_def
+            &_img2
+                background-image: url(../images/commencez/exploration.jpg)
+                
+                height: 20rem
+                background-size: cover
+                background-position: size
+
+                // @media screen and (min-width: 1024px)
+                //     width: 10rem
+                //     height: 15rem
+            &_description2
+                display: flex
+                align-items: center
+                justify-content: center
+                color: #fff
+        &_exp
+            &_img3
+                background-image: url(../images/commencez/gestion-marchandise.jpg)
+                
+                height: 20rem
+                background-size: cover
+                background-position: center
+
+                // @media screen and (min-width: 1024px)
+                //     width: 10rem
+                //     height: 15rem
+            &_description3
+                display: flex
+                align-items: center
+                justify-content: center
+                color: #fff
+        &_ges
+            &_img4
+                background-image: url(../images/commencez/combat.jpg)
+                
+                height: 20rem
+                background-size: cover
+                background-position: center
+                // @media screen and (min-width: 1024px)
+                //     width: 10rem
+                //     height: 15rem
+
+            &_description4
+                display: flex
+                align-items: center
+                justify-content: center
+                color: #fff
+    &__button
+        background-color: $orange
+        text-align: center
+        margin: 2% 44%
+        padding: 1% 1%
+
+        @media screen and (min-width: 576px)
+            margin: 3% 27%
+            padding: 2% 1%
+        @media screen and (min-width: 768px)
+            margin: 2% 40%
+            padding: 1% 1%
+        @media screen and (min-width: 1024px)
+            margin: 2% 43%
+            padding: 1% 1%
+        @media screen and (min-width: 1924px)
+            margin: 2% 45%
+            padding: 1% 1%
+        &_cta
+            text-decoration: none
+            color: #fff
+            &:hover
+                text-decoration: underline
+                color: #000
+
+        // @media screen and (min-width: 576px)
+
+        // @media screen and (min-width: 768px)
+
+        // @media screen and (min-width: 1024px)
+
+//  @media screen a (min-width: 576px)
+//  .image-slide
+//  .image-content
+//  h1
+//  font-size: 3rem 
+
+//         p
+//  font-size: 2rem
+
+//         button
+//             font-size: 2rem 
+
+// @media screen  (min-width: 768px)
+//  .image-slide
+//  .image-content
+//  h1
+//  font-size: 4rem
+
+//         p
+//             font-size: 2.5rem
+
+//         button
+//             font-size: 2.5rem
+
+// @media screen   (min-width: 1024px)
+//  .image-slide
+//  .image-content
+//  h1
+//  font-size: 5rem 
+
+//         p
+//             font-size: 3rem
+
+//         button
+//             font-size: 3rem 
